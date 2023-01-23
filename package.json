@@ -1,0 +1,15 @@
+{
+  "name": "react-hq",
+  "version": "1.0.0",
+  "description": "React HQ Home Page",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./css/tailwind.css -o ./style.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tomal",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
